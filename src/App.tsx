@@ -23,9 +23,20 @@ function ScrollToHash() {
   return null;
 }
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <ScrollToHash />
       <div className="overflow-x-hidden">
         <Navbar />
