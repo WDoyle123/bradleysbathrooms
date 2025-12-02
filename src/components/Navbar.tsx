@@ -37,33 +37,33 @@ export default function Navbar() {
               </details>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <Link to="/#services">Services</Link>
             </li>
             <li>
-              <a href="#why">Why us</a>
+              <Link to="/#why">Why us</Link>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <Link to="/#contact">Contact</Link>
             </li>
             <li>
               <Link to="/team">Meet the Team</Link>
             </li>
             <li className="mt-2">
-              <a href="#contact" className="btn btn-secondary btn-sm">
+              <Link to="/#contact" className="btn btn-secondary btn-sm">
                 Book now
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
       </div>
 
       <div className="navbar-end">
-        <a
-          href="#contact"
+        <Link
+          to="/#contact"
           className="btn btn-outline text-base-100 border-base-100 hover:bg-base-100 hover:text-primary btn-sm hidden md:inline-flex"
         >
           Book now
-        </a>
+        </Link>
       </div>
     </div>
   );

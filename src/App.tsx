@@ -9,7 +9,7 @@ import "./App.css";
 
 export default function App() {
   return (
-    <Router basename="/bradleysbathrooms">
+    <Router>
       <div className="overflow-x-hidden">
         <Navbar />
         <Routes>
