@@ -25,5 +25,7 @@ module.exports = {
       "light",
       "dark",
     ],
+    logs: false,
+    prefix: "",
   },
 };
