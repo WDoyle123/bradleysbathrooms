@@ -37,19 +37,19 @@ export default function Navbar() {
               </details>
             </li>
             <li>
-              <a href="/#services">Services</a>
+              <a href="#services">Services</a>
             </li>
             <li>
-              <a href="/#why">Why us</a>
+              <a href="#why">Why us</a>
             </li>
             <li>
-              <a href="/#contact">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
             <li>
               <Link to="/team">Meet the Team</Link>
             </li>
             <li className="mt-2">
-              <a href="/bradleysbathrooms/#contact" className="btn btn-secondary btn-sm">
+              <a href="#contact" className="btn btn-secondary btn-sm">
                 Book now
               </a>
             </li>
@@ -59,7 +59,7 @@ export default function Navbar() {
 
       <div className="navbar-end">
         <a
-          href="/bradleysbathrooms/#contact"
+          href="#contact"
           className="btn btn-outline text-base-100 border-base-100 hover:bg-base-100 hover:text-primary btn-sm hidden md:inline-flex"
         >
           Book now
