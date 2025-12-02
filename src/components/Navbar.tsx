@@ -49,7 +49,7 @@ export default function Navbar() {
               <Link to="/team">Meet the Team</Link>
             </li>
             <li className="mt-2">
-              <a href="/#contact" className="btn btn-secondary btn-sm">
+              <a href="/bradleysbathrooms/#contact" className="btn btn-secondary btn-sm">
                 Book now
               </a>
             </li>
@@ -59,7 +59,7 @@ export default function Navbar() {
 
       <div className="navbar-end">
         <a
-          href="/#contact"
+          href="/bradleysbathrooms/#contact"
           className="btn btn-outline text-base-100 border-base-100 hover:bg-base-100 hover:text-primary btn-sm hidden md:inline-flex"
         >
           Book now
