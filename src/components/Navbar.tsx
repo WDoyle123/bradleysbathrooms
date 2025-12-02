@@ -1,0 +1,69 @@
+export default function Navbar() {
+  return (
+    <div className="navbar fixed top-0 z-50 bg-primary">
+      <div className="navbar-start">
+        <div className="dropdown ">
+          <label
+            tabIndex={0}
+            className="btn btn-ghost btn-square text-white"
+            aria-label="Open navigation menu"
+          >
+            <svg
+              className="w-5 h-5"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              strokeLinecap="round"
+            >
+              <path d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </label>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content mt-3 z-[60] p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li>
+              <details>
+                <summary>Images</summary>
+                <ul>
+                  <li><a href="/products/baths">Baths</a></li>
+                  <li><a href="/products/toilets">Toilets</a></li>
+                  <li><a href="/products/sinks">Sinks</a></li>
+                  <li><a href="/gallery">All Photos</a></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <a href="/#services">Services</a>
+            </li>
+            <li>
+              <a href="/#why">Why us</a>
+            </li>
+            <li>
+              <a href="/#contact">Contact</a>
+            </li>
+            <li>
+              <a href="/team">Meet the Team</a>
+            </li>
+            <li className="mt-2">
+              <a href="/#contact" className="btn btn-secondary btn-sm">
+                Book now
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="navbar-end">
+        <a
+          href="/#contact"
+          className="btn btn-outline text-base-100 border-base-100 hover:bg-base-100 hover:text-primary btn-sm hidden md:inline-flex"
+        >
+          Book now
+        </a>
+      </div>
+    </div>
+  );
+}
+

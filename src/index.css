@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "emerald";
+  default: true;
+  --color-primary: #911910;
+  --color-secondary: #911910;
+  --color-base-100: #ffffff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+body {
+  -ms-overflow-style: none;
+  margin: 0;
+  padding: 0;
+}
