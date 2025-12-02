@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   return (
     <div className="navbar fixed top-0 z-50 bg-primary">
@@ -27,10 +29,10 @@ export default function Navbar() {
               <details>
                 <summary>Images</summary>
                 <ul>
-                  <li><a href="/products/baths">Baths</a></li>
-                  <li><a href="/products/toilets">Toilets</a></li>
-                  <li><a href="/products/sinks">Sinks</a></li>
-                  <li><a href="/gallery">All Photos</a></li>
+                  <li><Link to="/products/baths">Baths</Link></li>
+                  <li><Link to="/products/toilets">Toilets</Link></li>
+                  <li><Link to="/products/sinks">Sinks</Link></li>
+                  <li><Link to="/gallery">All Photos</Link></li>
                 </ul>
               </details>
             </li>
@@ -44,7 +46,7 @@ export default function Navbar() {
               <a href="/#contact">Contact</a>
             </li>
             <li>
-              <a href="/team">Meet the Team</a>
+              <Link to="/team">Meet the Team</Link>
             </li>
             <li className="mt-2">
               <a href="/#contact" className="btn btn-secondary btn-sm">
